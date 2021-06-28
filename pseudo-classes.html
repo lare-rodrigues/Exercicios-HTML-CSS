@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        div {
+            display: inline-block;
+            background-color: burlywood;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+        }
+        
+        div:hover {
+            background-color: chocolate;
+        }
+        
+        button:hover {
+            background-color: crimson;
+        }
+        
+        a:visited {
+            color: rgb(206, 238, 28)
+        }
+        
+        p:active,
+        h1:active {
+            background-color: darksalmon;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+    <br>
+    <button>
+        Hover em botões
+    </button>
+
+    <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/:visited" target="_blank"> Mozilla explicando a Pseudo-class :visited</a>
+
+    <h1>:Active</h1>
+    <p>Olá, mundo!Testando a Pseudo-class :active</p>
+
+</body>
+
+</html>
